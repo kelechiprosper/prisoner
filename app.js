@@ -117,6 +117,9 @@ val = String(new Date());
 // Array to string
 val = String([1,2,3,4,5])
 
+//tostring ()
+val = (5).toString();
+
 console.log(val);
 console.log(typeof val);
 console.log(val.length)
