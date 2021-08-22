@@ -20,25 +20,25 @@ console.timeEnd('Hello World');
 
 // var,let,const
 
-// var name = 'John Doe';
-// console.log(name);
-// name = 'Steve smith';
-// console.log(name);
+var name = 'John Doe';
+console.log(name);
+name = 'Steve smith';
+console.log(name);
 
-// // Init var
+// Init var
 
-// var greeting;
-// console.log(greeting);
-// greeting = 'Hello';
-// console.log(greeting);
+var greeting;
+console.log(greeting);
+greeting = 'Hello';
+console.log(greeting);
 
-// // letters,numbers,_,,$
-// // Can not start with number
+// letters,numbers,_,,$
+// Can not start with number
 
-// // Multi word vars
-// var firstName = 'John'; // camel case
-// var first_name = 'sara'; // Underscore
-// var FirstName = 'Tom';// Pascal case
+// Multi word vars
+var firstName = 'John'; // camel case
+var first_name = 'sara'; // Underscore
+var FirstName = 'Tom';// Pascal case
 
 // LET
 let name
