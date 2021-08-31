@@ -210,7 +210,7 @@
 // console.log(val);
 
 const name = 'John';
-const age = 30;
+const age = 31;
 const job = 'web Developer';
 const city = 'maimi';
 let html;
@@ -239,7 +239,7 @@ html = `
     <li>City: ${city}</li>
     <li>${2+2}</li>
     <li>${hello()}</li>
-    <li></li>
+    <li>${age > 30 ? 'over 30' : 'under 30'}</li>
     </ul>
 `;
 
