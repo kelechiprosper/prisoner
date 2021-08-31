@@ -209,38 +209,47 @@
 
 // console.log(val);
 
-const name = 'John';
-const age = 31;
-const job = 'web Developer';
-const city = 'maimi';
-let html;
+// const name = 'John';
+// const age = 31;
+// const job = 'web Developer';
+// const city = 'maimi';
+// let html;
 
-//Without Templet Strings (es5)
-html = '<ul><li>Name: ' + name + ' </li> <li>Age: ' + age + ' </li> <li>Job: ' + job + 
-' </li><li>City: ' + city + ' </li></ul>';
+// //Without Templet Strings (es5)
+// html = '<ul><li>Name: ' + name + ' </li> <li>Age: ' + age + ' </li> <li>Job: ' + job + 
+// ' </li><li>City: ' + city + ' </li></ul>';
 
-html = '<ul>' +
-        '<li>Name: ' + name + ' </li>' +
-        '<li>Age: ' + age + ' </li>' +
-        '<li>Job: ' + job + ' </li>' +
-        '<li>City: ' + city + '</li>' +
-        '</ul>';
+// html = '<ul>' +
+//         '<li>Name: ' + name + ' </li>' +
+//         '<li>Age: ' + age + ' </li>' +
+//         '<li>Job: ' + job + ' </li>' +
+//         '<li>City: ' + city + '</li>' +
+//         '</ul>';
 
-function hello(){
-    return 'hello';
-}
+// function hello(){
+//     return 'hello';
+// }
 
-//With templete strings (es6)
-html = `
-    <ul>
-    <li>Name: ${name}</li>
-    <li>Age: ${age}</li>
-    <li>Job: ${job}</li>
-    <li>City: ${city}</li>
-    <li>${2+2}</li>
-    <li>${hello()}</li>
-    <li>${age > 30 ? 'over 30' : 'under 30'}</li>
-    </ul>
-`;
+// //With templete strings (es6)
+// html = `
+//     <ul>
+//     <li>Name: ${name}</li>
+//     <li>Age: ${age}</li>
+//     <li>Job: ${job}</li>
+//     <li>City: ${city}</li>
+//     <li>${2+2}</li>
+//     <li>${hello()}</li>
+//     <li>${age > 30 ? 'over 30' : 'under 30'}</li>
+//     </ul>
+// `;
 
-document.body.innerHTML = html;
+// document.body.innerHTML = html;
+
+
+// Create some arrays
+const numbers = [43,56,33,23,44,36,5];
+const numbers2 = new Array(22,45,33,76,54);
+const fruit = ['Banana', 'Apple', 'Orange', 'Pear'];
+const mixed = [22, 'Hello', true, undefined, null, {a:1, b:2}, new Date()];
+
+console.log(mixed);
