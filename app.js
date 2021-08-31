@@ -102,24 +102,145 @@
 // console.log(today)
 // console.log(typeof today);
 
-let val;
+// let val;
 
-// number of string
-val = String(555);
-val = String(4+4);
+// // number of string
+// val = String(555);
+// val = String(4+4);
 
 // Bool to string
-val = String(true);
+// val = String(true);
 
-// Date to string
-val = String(new Date());
+// // Date to string
+// val = String(new Date());
 
-// Array to string
-val = String([1,2,3,4,5])
+// // Array to string
+// val = String([1,2,3,4,5])
 
-//tostring ()
-val = (5).toString();
+// //tostring ()
+// val = (5).toString();
+// val = (true).toString();
 
-console.log(val);
-console.log(typeof val);
-console.log(val.length)
+// // String to Numbers 
+// val = Number('5');
+// val = Number(true);
+// val = Number(false);
+// val = Number(null);
+// val = Number('hello');
+// val = Number([1,2,3,4]);
+
+// val = parseInt('100');
+// val = parseFloat('100.30');
+
+// console.log(val);
+// console.log(typeof val);
+// //console.log(val.length)
+// console.log(val.toFixed(2));
+
+// const val1 = String(5);
+// const val2 = 6;
+// const sum = val1 + val2;
+
+// console.log(sum);
+// console.log(typeof sum);
+
+// const num1 = 100;
+// const num2 = 50;
+// let val;
+
+// // simple math with numbers
+// val = num1 + num2;
+// val = num1 * num2;
+// val = num1 - num2;
+// val = num1 / num2;
+// val = num1 % num2;
+
+// const firstName = 'William';
+// const lastName = 'Johnson';
+// const age = 24;
+// const str = 'Hello there my name is chief';
+// const tags = 'web designs, web development,programming';
+
+// let  val
+
+// val = firstName + lastName;
+// //Concatination
+// val = firstName + ' ' + lastName;
+
+// // Append
+// val = 'high ';
+// val += 'chief';
+
+// val = 'Hello, my name is ' + firstName + ' and i am '+ age ;
+
+// // Escaping
+// val = "that's awsomw, I can't wait";
+
+// // Length
+// val  = firstName.length;
+
+// // Concat()
+// val = firstName.concat(' ', lastName);
+
+// // change case
+// val = firstName.toUpperCase();
+// val = firstName.toLowerCase();
+
+// // indexof()
+// val = firstName.indexOf('l');
+// val = firstName.lastIndexOf('l');
+
+// //charAt
+// val = firstName.charAt('2');
+// //Get last char
+// val = firstName.charAt(firstName.length - 1);
+// //substring()
+// val =firstName.substring(0, 4);
+// //Slice
+// val = firstName.slice(0, 4);
+// val = firstName.slice(-3);
+// //Split
+// val = str.split(' ');
+// val = tags.split(',');
+// //Replace
+// val = str.replace('chief', 'High');
+// //include
+// val = str.includes('foo');
+
+// console.log(val);
+
+const name = 'John';
+const age = 30;
+const job = 'web Developer';
+const city = 'maimi';
+let html;
+
+//Without Templet Strings (es5)
+html = '<ul><li>Name: ' + name + ' </li> <li>Age: ' + age + ' </li> <li>Job: ' + job + 
+' </li><li>City: ' + city + ' </li></ul>';
+
+html = '<ul>' +
+        '<li>Name: ' + name + ' </li>' +
+        '<li>Age: ' + age + ' </li>' +
+        '<li>Job: ' + job + ' </li>' +
+        '<li>City: ' + city + '</li>' +
+        '</ul>';
+
+function hello(){
+    return 'hello';
+}
+
+//With templete strings (es6)
+html = `
+    <ul>
+    <li>Name: ${name}</li>
+    <li>Age: ${age}</li>
+    <li>Job: ${job}</li>
+    <li>City: ${city}</li>
+    <li>${2+2}</li>
+    <li>${hello()}</li>
+    <li></li>
+    </ul>
+`;
+
+document.body.innerHTML = html;
