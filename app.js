@@ -265,5 +265,19 @@ numbers[2] = 100;
 // Find index of value
 val = numbers.indexOf(36);
 
+//Mutating arrays
+// Add on to end
+numbers.push(250);
+// Add on to front
+numbers.unshift(120);
+// Take off from end
+numbers.pop();
+// Take off frm front
+numbers.shift();
+// Splice values
+numbers.splice(1,3);
+// Reverse
+numbers.reverse();
+
 console.log(numbers);
 console.log(val);
