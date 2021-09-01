@@ -252,4 +252,18 @@ const numbers2 = new Array(22,45,33,76,54);
 const fruit = ['Banana', 'Apple', 'Orange', 'Pear'];
 const mixed = [22, 'Hello', true, undefined, null, {a:1, b:2}, new Date()];
 
-console.log(mixed);
+let val;
+//Get array length
+val = numbers.length;
+// Check if is array
+val = Array.isArray(numbers);
+//Get single value
+val = numbers[3];
+val = numbers[0];
+// insert into array 
+numbers[2] = 100;
+// Find index of value
+val = numbers.indexOf(36);
+
+console.log(numbers);
+console.log(val);
