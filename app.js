@@ -284,16 +284,21 @@ val = numbers.concat(numbers2);
 
 // sorting arrays
 val = fruit.sort();
-val = numbers.sort();
-// use the "compare function"
-val = numbers.sort(function(x,y){
-    return x - y;
-});
-// Reverse sort
-val = numbers.sort(function(x,y){
-    return y - x;
-});
+// val = numbers.sort();
+// // use the "compare function"
+// val = numbers.sort(function(x,y){
+//     return x - y;
+// });
+// // Reverse sort
+// val = numbers.sort(function(x,y){
+//     return y - x;
+// });
 
+// Find
+function over50(num){
+    return num > 50;
+}
+val = numbers.find(over50);
 
 
 console.log(numbers);
