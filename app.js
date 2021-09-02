@@ -351,8 +351,21 @@ birthday = new Date('8/12/2021');
 val = today.getMonth();
 val = today.getDate();
 val = today.getDay();
+val = today.getFullYear();
+val = today.getHours();
+val = today.getMinutes();
+val = today.getMilliseconds();
+val = today.getTime();
 
-console.log(val);
+birthday.setMonth(3);
+birthday.setDate(12);
+birthday.setFullYear(2020);
+birthday.setHours(3);
+birthday.setMinutes(30);
+birthday.setSeconds(25);
+
+
+console.log(birthday);
 
 
 
