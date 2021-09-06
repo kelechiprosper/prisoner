@@ -373,38 +373,38 @@
 //     do something else
 // }
 
-const id = '100';
+//const id = '100';
 
-// EQUAL TO
-if(id == 100){
-    console.log('CORRECT');
-} else {
-    console.log('INCORRECT');
-}
-
-// NOT EQUAL TO
-if(id != 101){
-    console.log('CORRECT');
-} else {
-    console.log('INCORRECT');
-}
-
-// EQUAL TO VALUE AND TYPE
-if(id === 100){
-    console.log('CORRECT');
-} else {
-    console.log('INCORRECT');
-}
-
-// EQUAL TO VALUE AND TYPE
-if(id !== 100){
-    console.log('CORRECT');
-} else {
-    console.log('INCORRECT');
-}
-
-// if(typeof id ){
-//     console.log(`The ID is ${id}`);
+// // EQUAL TO
+// if(id == 100){
+//     console.log('CORRECT');
 // } else {
-//     console.log('NO ID');
+//     console.log('INCORRECT');
 // }
+
+// // NOT EQUAL TO
+// if(id != 101){
+//     console.log('CORRECT');
+// } else {
+//     console.log('INCORRECT');
+// }
+
+// // EQUAL TO VALUE AND TYPE
+// if(id === 100){
+//     console.log('CORRECT');
+// } else {
+//     console.log('INCORRECT');
+// }
+
+// // EQUAL TO VALUE AND TYPE
+// if(id !== 100){
+//     console.log('CORRECT');
+// } else {
+//     console.log('INCORRECT');
+// }
+
+if(typeof id !== 'undefined'){
+    console.log(`The ID is ${id}`);
+} else {
+    console.log('NO ID');
+}
