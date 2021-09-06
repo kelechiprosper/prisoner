@@ -410,8 +410,20 @@ const id = '100';
 // }
 
 // GREATER THAN OR LESS THAN
-if(id <= 100){
-        console.log('CORRECT');
-    } else {
-        console.log('INCORRECT');
-    }
+// if(id <= 100){
+//         console.log('CORRECT');
+//     } else {
+//         console.log('INCORRECT');
+//     }
+
+// IF ELSE
+
+const color = 'yellow';
+
+if(color ===  'red'){
+    console.log('color is red');
+} else if(color == 'blue'){
+    console.log('color is blue');
+} else {
+    console.log('color is not red or blue');
+}
