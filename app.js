@@ -341,32 +341,70 @@
 //     console.log(people[i].name);
 // }
 
-let val;
+// let val;
 
-const today = new Date();
-let birthday = new Date('8-12-2021 09:15:00');
-birthday = new Date('September 12 2021')
-birthday = new Date('8/12/2021');
+// const today = new Date();
+// let birthday = new Date('8-12-2021 09:15:00');
+// birthday = new Date('September 12 2021')
+// birthday = new Date('8/12/2021');
 
-val = today.getMonth();
-val = today.getDate();
-val = today.getDay();
-val = today.getFullYear();
-val = today.getHours();
-val = today.getMinutes();
-val = today.getMilliseconds();
-val = today.getTime();
+// val = today.getMonth();
+// val = today.getDate();
+// val = today.getDay();
+// val = today.getFullYear();
+// val = today.getHours();
+// val = today.getMinutes();
+// val = today.getMilliseconds();
+// val = today.getTime();
 
-birthday.setMonth(3);
-birthday.setDate(12);
-birthday.setFullYear(2020);
-birthday.setHours(3);
-birthday.setMinutes(30);
-birthday.setSeconds(25);
-
-
-console.log(birthday);
+// birthday.setMonth(3);
+// birthday.setDate(12);
+// birthday.setFullYear(2020);
+// birthday.setHours(3);
+// birthday.setMinutes(30);
+// birthday.setSeconds(25);
 
 
+// console.log(birthday);
 
+// if(something){
+//     do something
+// }else{
+//     do something else
+// }
 
+const id = '100';
+
+// EQUAL TO
+if(id == 100){
+    console.log('CORRECT');
+} else {
+    console.log('INCORRECT');
+}
+
+// NOT EQUAL TO
+if(id != 101){
+    console.log('CORRECT');
+} else {
+    console.log('INCORRECT');
+}
+
+// EQUAL TO VALUE AND TYPE
+if(id === 100){
+    console.log('CORRECT');
+} else {
+    console.log('INCORRECT');
+}
+
+// EQUAL TO VALUE AND TYPE
+if(id !== 100){
+    console.log('CORRECT');
+} else {
+    console.log('INCORRECT');
+}
+
+// if(typeof id ){
+//     console.log(`The ID is ${id}`);
+// } else {
+//     console.log('NO ID');
+// }
