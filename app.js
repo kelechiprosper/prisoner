@@ -373,7 +373,7 @@
 //     do something else
 // }
 
-const id = 100;
+//const id = 100;
 
 // // EQUAL TO
 // if(id == 100){
@@ -430,29 +430,79 @@ const id = 100;
 
 // LOGICAL OPERATORS
 
-const name = 'steve';
-const age = 70;
+// const name = 'steve';
+// const age = 70;
 
-// AND &&
-if(age > 0 && age < 12){
-    console.log(`${name} is a child`);
-} else if (age >= 13 &&age <= 19){
-    console.log(`${name} is a teenager`);
-} else {
-    console.log(`${name} is an adult`);
+// // AND &&
+// if(age > 0 && age < 12){
+//     console.log(`${name} is a child`);
+// } else if (age >= 13 &&age <= 19){
+//     console.log(`${name} is a teenager`);
+// } else {
+//     console.log(`${name} is an adult`);
+// }
+// // OR ||
+// if(age < 16 || age > 65){
+//     console.log(`${name} can not run in a race`);
+// } else {
+//     console.log(`${name}is registere for the race`);
+// }
+
+// // TERNERY OPERATOR
+// console.log(id === 100 ? 'CORRECT' : 'INCORRECT');
+
+// // WITHOUT BRACES
+// if(id === 100)
+//     console.log('CORRECT');
+// else
+//     console.log('INCORRECT');
+
+const color = 'yellow';
+
+switch(color){
+    case 'red':
+        console.log('color is red');
+        break;
+        case 'blue':
+        console.log('color is blue');
+        break;
+    default:
+        console.log('color is not red or blue');
+        break;
 }
-// OR ||
-if(age < 16 || age > 65){
-    console.log(`${name} can not run in a race`);
-} else {
-    console.log(`${name}is registere for the race`);
+
+let day;
+
+switch(new Date().getDay()){
+    case 0:
+        day = 'sunday';
+        break;
+        
+        case 1:
+        day = 'monday';
+        break;
+
+        case 2:
+        day = 'tuesday';
+        break;
+
+        case 3:
+        day = 'wednesday';
+        break;
+
+        case 4:
+        day = 'thursday';
+        break;
+
+        case 5:
+        day = 'friday';
+        break;
+
+        case 6:
+        day = 'saturday';
+        break;
 }
 
-// TERNERY OPERATOR
-console.log(id === 100 ? 'CORRECT' : 'INCORRECT');
+console.log(`today is ${day}`);
 
-// WITHOUT BRACES
-if(id === 100)
-    console.log('CORRECT');
-else
-    console.log('INCORRECT');
+
