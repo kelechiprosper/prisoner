@@ -506,8 +506,8 @@
 // console.log(`today is ${day}`);
 
 // FUNCTION DECLARATION
-function greet(firstName){
+function greet(firstName = 'John',lastName = 'Doe'){
     //console.log('Hello');
     return 'Hello ' + firstName + ' ' + lastName;
 }
-console.log(greet('John', 'Doe'));
+console.log(greet());
