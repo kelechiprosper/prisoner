@@ -510,7 +510,7 @@ function greet(firstName = 'John',lastName = 'Doe'){
     console.log('Hello');
     return 'Hello ' + firstName + ' ' + lastName;
 }
-console.log(greet());
+//console.log(greet());
 
 // FUNCTION EXPRESIONS
 const square = function(x = 5){
@@ -520,9 +520,27 @@ const square = function(x = 5){
 
 // IMMEDIATELY INVOKABLE FUNCTION EXPRESSIONS - IIFS
 
-(function(){
-    console.log('IIFE ram...');
-})();
-(function(name){
-       console.log('Hello '+ name);
-})('Brad');
+// (function(){
+//     console.log('IIFE ram...');
+// })();
+// (function(){
+//     //     console.log('IIFE ram...');
+//     // })()
+
+// PROPERTY METHOD
+
+const todo = {
+    add: function(){
+        console.log('Add todo...')
+    },
+    edit: function(id){
+        console.log(`edit todo ${id}`);
+    }
+}
+todo.delete = function(){
+    console.log('Delete todo...');
+}
+
+todo.add();
+todo.edit(22);
+todo.delete();
