@@ -506,16 +506,16 @@
 // console.log(`today is ${day}`);
 
 // FUNCTION DECLARATION
-function greet(firstName = 'John',lastName = 'Doe'){
-    console.log('Hello');
-    return 'Hello ' + firstName + ' ' + lastName;
-}
+// function greet(firstName = 'John',lastName = 'Doe'){
+//     console.log('Hello');
+//     return 'Hello ' + firstName + ' ' + lastName;
+// }
 //console.log(greet());
 
 // FUNCTION EXPRESIONS
-const square = function(x = 5){
-    return x*x;
-};
+// const square = function(x = 5){
+//     return x*x;
+// };
 //console.log(square());
 
 // IMMEDIATELY INVOKABLE FUNCTION EXPRESSIONS - IIFS
@@ -529,18 +529,32 @@ const square = function(x = 5){
 
 // PROPERTY METHOD
 
-const todo = {
-    add: function(){
-        console.log('Add todo...')
-    },
-    edit: function(id){
-        console.log(`edit todo ${id}`);
-    }
-}
-todo.delete = function(){
-    console.log('Delete todo...');
-}
+// const todo = {
+//     add: function(){
+//         console.log('Add todo...')
+//     },
+//     edit: function(id){
+//         console.log(`edit todo ${id}`);
+//     }
+// }
+// todo.delete = function(){
+//     console.log('Delete todo...');
+// }
 
-todo.add();
-todo.edit(22);
-todo.delete();
+// todo.add();
+// todo.edit(22);
+// todo.delete();
+
+// FOR LOOP
+for(let a = 0; a < 20; a++){
+    if(a === 4){
+        console.log('4 is my favourite Number');
+        continue;
+    }
+
+    if(a === 10){
+        console.log('stop the loop');
+        break;
+    }
+    console.log('Number '+ a);
+}
