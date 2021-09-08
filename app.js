@@ -510,4 +510,10 @@ function greet(firstName = 'John',lastName = 'Doe'){
     //console.log('Hello');
     return 'Hello ' + firstName + ' ' + lastName;
 }
-console.log(greet());
+//console.log(greet());
+
+// FUNCTION EXPRESIONS
+const square = function(x = 5){
+    return x*x;
+};
+console.log(square());
