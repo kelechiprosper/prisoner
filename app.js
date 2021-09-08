@@ -561,9 +561,21 @@
 
 // WHILE LOOP
 
-let i = 0;
+// let i = 0;
 
-while(i < 20){
-    console.log('Number ' +i);
+// while(i < 20){
+//     console.log('Number ' +i);
+//     i++;
+// }
+
+// DO WHILE
+
+let i = 100
+
+do{
+    console.log('Number ' + i);
     i++;
+
 }
+
+while(i < 20);
