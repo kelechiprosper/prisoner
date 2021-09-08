@@ -507,13 +507,22 @@
 
 // FUNCTION DECLARATION
 function greet(firstName = 'John',lastName = 'Doe'){
-    //console.log('Hello');
+    console.log('Hello');
     return 'Hello ' + firstName + ' ' + lastName;
 }
-//console.log(greet());
+console.log(greet());
 
 // FUNCTION EXPRESIONS
 const square = function(x = 5){
     return x*x;
 };
-console.log(square());
+//console.log(square());
+
+// IMMEDIATELY INVOKABLE FUNCTION EXPRESSIONS - IIFS
+
+(function(){
+    console.log('IIFE ram...');
+})();
+(function(name){
+       console.log('Hello '+ name);
+})('Brad');
