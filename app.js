@@ -546,15 +546,24 @@
 // todo.delete();
 
 // FOR LOOP
-for(let a = 0; a < 20; a++){
-    if(a === 4){
-        console.log('4 is my favourite Number');
-        continue;
-    }
+// for(let a = 0; a < 20; a++){
+//     if(a === 4){
+//         console.log('4 is my favourite Number');
+//         continue;
+//     }
 
-    if(a === 10){
-        console.log('stop the loop');
-        break;
-    }
-    console.log('Number '+ a);
+//     if(a === 10){
+//         console.log('stop the loop');
+//         break;
+//     }
+//     console.log('Number '+ a);
+// }
+
+// WHILE LOOP
+
+let i = 0;
+
+while(i < 20){
+    console.log('Number ' +i);
+    i++;
 }
