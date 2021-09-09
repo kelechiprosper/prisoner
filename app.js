@@ -570,12 +570,25 @@
 
 // DO WHILE
 
-let i = 100
+// let i = 100
 
-do{
-    console.log('Number ' + i);
-    i++;
+// do{
+//     console.log('Number ' + i);
+//     i++;
 
+// }
+
+// while(i < 20);
+
+// LOOP THROUGH ARRAY
+const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
+
+for(let i = 0; i < cars.length; i++)
+{
+console.log(cars[i]);
 }
 
-while(i < 20);
+// FOR EACH
+cars.forEach(function(car){
+    console.log(car);
+});
