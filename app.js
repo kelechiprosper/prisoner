@@ -630,8 +630,20 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 // alert(input);
 
 // CONFIRM
-if(confirm('are you sure')){
-    console.log('Yes');
-} else{
-    console.log('No');
-}
+// if(confirm('are you sure')){
+//     console.log('Yes');
+// } else{
+//     console.log('No');
+// }
+
+let val;
+
+// OUTER HIGHT AND WIDTH
+val = window.outerHeight;
+val = window.outerWidth;
+console.log(val);
+
+// INNEROUTER HIGHT AND WIDTH
+val = window.innerHeight;
+val = window.innerWidth;
+console.log(val);
