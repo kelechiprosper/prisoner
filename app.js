@@ -589,24 +589,35 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 // }
 
 // FOR EACH
-cars.forEach(function(car, index, array){
-    console.log(`${index} : ${car}`);
-    console.log(array);
-});
+// cars.forEach(function(car, index, array){
+//     console.log(`${index} : ${car}`);
+//     console.log(array);
+// });
 
-const users = [
-    {id: 1, name: 'Jack'},
-    {id: 2, name: 'Rose'},
-    {id: 3, name: 'Presh'},
-    {id: 4, name: 'King'},
+// const users = [
+//     {id: 1, name: 'Jack'},
+//     {id: 2, name: 'Rose'},
+//     {id: 3, name: 'Presh'},
+//     {id: 4, name: 'King'},
 
-];
-const ids = users.map(function(user){
-    return user.id;
-});
+// ];
+// const ids = users.map(function(user){
+//     return user.id;
+// });
 
-console.log(ids);array.forEach(element => {
+// console.log(ids);array.forEach(element => {
     
-});
+// });
+
+// FOR IN LOOP
+
+const user = {
+    firstName: 'steve',
+    lastName: 'Andrew',
+    age: 38
+}
+for(let y in user){
+    console.log(`${y} : ${user[y]}`);
+}
 
 
