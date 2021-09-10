@@ -621,7 +621,6 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 // }
 
 // WINDOWS METHODS | OBJECTS | PROPERTIES
-console.log(123);
 
 // ALERT
-
+window.alert('Hello World');
