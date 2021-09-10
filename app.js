@@ -626,5 +626,12 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 //window.alert('Hello World');
 
 // PROMPT
-const input = prompt();
-alert(input);
+// const input = prompt();
+// alert(input);
+
+// CONFIRM
+if(confirm('are you sure')){
+    console.log('Yes');
+} else{
+    console.log('No');
+}
