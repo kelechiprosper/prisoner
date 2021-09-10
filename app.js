@@ -583,12 +583,30 @@
 // LOOP THROUGH ARRAY
 const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 
-for(let i = 0; i < cars.length; i++)
-{
-console.log(cars[i]);
-}
+// for(let i = 0; i < cars.length; i++)
+// {
+// console.log(cars[i]);
+// }
 
 // FOR EACH
-cars.forEach(function(car){
-    console.log(car);
+cars.forEach(function(car, index, array){
+    console.log(`${index} : ${car}`);
+    console.log(array);
 });
+
+const users = [
+    {id: 1, name: 'Jack'},
+    {id: 2, name: 'Rose'},
+    {id: 3, name: 'Presh'},
+    {id: 4, name: 'King'},
+
+];
+const ids = users.map(function(user){
+    return user.id;
+});
+
+console.log(ids);array.forEach(element => {
+    
+});
+
+
