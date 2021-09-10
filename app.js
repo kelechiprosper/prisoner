@@ -611,13 +611,17 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 
 // FOR IN LOOP
 
-const user = {
-    firstName: 'steve',
-    lastName: 'Andrew',
-    age: 38
-}
-for(let y in user){
-    console.log(`${y} : ${user[y]}`);
-}
+// const user = {
+//     firstName: 'steve',
+//     lastName: 'Andrew',
+//     age: 38
+// }
+// for(let y in user){
+//     console.log(`${y} : ${user[y]}`);
+// }
 
+// WINDOWS METHODS | OBJECTS | PROPERTIES
+console.log(123);
+
+// ALERT
 
