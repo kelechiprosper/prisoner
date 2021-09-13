@@ -647,3 +647,21 @@ console.log(val);
 val = window.innerHeight;
 val = window.innerWidth;
 console.log(val);
+
+// SCROLL POINTS
+val = window.scrollY;
+val = window.scrollX;
+
+// LOCATION OBJECT
+val = window.location;
+val = window.location.hostname;
+val = window.location.port;
+val = window.location.href;
+val = window.location.search;
+
+// REDIRECT
+//window.location.href = 'http://google.com';
+//RELOAD
+//window.location.reload();
+
+console.log(val);
