@@ -660,8 +660,8 @@ val = window.location.href;
 val = window.location.search;
 
 // REDIRECT
-//window.location.href = 'http://google.com';
+window.location.href = 'http://google.com';
 //RELOAD
-//window.location.reload();
+window.location.reload();
 
 console.log(val);
