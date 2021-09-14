@@ -638,30 +638,36 @@ const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 
 let val;
 
-// OUTER HIGHT AND WIDTH
-val = window.outerHeight;
-val = window.outerWidth;
-console.log(val);
+// // OUTER HIGHT AND WIDTH
+// val = window.outerHeight;
+// val = window.outerWidth;
+// console.log(val);
 
-// INNEROUTER HIGHT AND WIDTH
-val = window.innerHeight;
-val = window.innerWidth;
-console.log(val);
+// // INNEROUTER HIGHT AND WIDTH
+// val = window.innerHeight;
+// val = window.innerWidth;
+// console.log(val);
 
-// SCROLL POINTS
-val = window.scrollY;
-val = window.scrollX;
+// // SCROLL POINTS
+// val = window.scrollY;
+// val = window.scrollX;
 
-// LOCATION OBJECT
-val = window.location;
-val = window.location.hostname;
-val = window.location.port;
-val = window.location.href;
-val = window.location.search;
+// // LOCATION OBJECT
+// val = window.location;
+// val = window.location.hostname;
+// val = window.location.port;
+// val = window.location.href;
+// val = window.location.search;
 
-// REDIRECT
+REDIRECT
 window.location.href = 'http://google.com';
-//RELOAD
+RELOAD
 window.location.reload();
+
+// history object
+
+window.history.go(-2);
+
+val = window.history.length;
 
 console.log(val);
