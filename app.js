@@ -659,15 +659,24 @@ let val;
 // val = window.location.href;
 // val = window.location.search;
 
-REDIRECT
-window.location.href = 'http://google.com';
-RELOAD
-window.location.reload();
+// REDIRECT
+// window.location.href = 'http://google.com';
+// RELOAD
+// window.location.reload();
 
-// history object
+// // history object
 
-window.history.go(-2);
+// window.history.go(-2);
 
-val = window.history.length;
+// val = window.history.length;
+
+// NAVIGATOR OBJECT
+val = window.navigator;
+val = window.navigator.appName;
+val = window.navigator.appVersion;
+val = window.navigator.userAgent;
+val = window.navigator.platform;
+val = window.navigator.vendor;
+val = window.navigator.language;
 
 console.log(val);
