@@ -681,10 +681,10 @@ let val;
 
 // console.log(val);
 
-//GLOBAL SCOPE
-var a = 1;
-let b = 2;
-const c = 3;
+// //GLOBAL SCOPE
+// var a = 1;
+// let b = 2;
+// const c = 3;
 
 // function test() {
 //     var a = 4;
@@ -702,8 +702,8 @@ const c = 3;
 // console.log('If Scope: ', a, b, c,);
 // }
 
-for(let a = 0; a < 10; a++) {
-    console.log(`Loop: ${a}`);
-}
+// for(let a = 0; a < 10; a++) {
+//     console.log(`Loop: ${a}`);
+// }
 
-console.log('Global Scope: ', a, b, c,);
+//console.log('Global Scope: ', a, b, c,);
