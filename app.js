@@ -581,7 +581,7 @@
 // while(i < 20);
 
 // LOOP THROUGH ARRAY
-const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
+// const cars = ['Ford', 'Chevy', 'Honda', 'Acura'];
 
 // for(let i = 0; i < cars.length; i++)
 // {
