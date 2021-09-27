@@ -707,3 +707,22 @@ let val;
 // }
 
 //console.log('Global Scope: ', a, b, c,);
+
+
+
+val = document;
+val = document.all;
+val = document.all[1];
+val = document.all.length;
+val = document.head;
+val = document.body;
+val = document.doctype;
+val = document.domain;
+val = document.URL;
+val = document.characterSet;
+val = document.contentType;
+
+
+
+
+console.log(val);
