@@ -740,4 +740,13 @@ val = document.images;
 val = document.scripts;
 val = document.scripts[2].getAttribute('src');
 
+let scripts = document.scripts;
+
+let scriptsArr = Array.from(scripts);
+
+scriptsArr.forEach(function(scripts){
+    console.log(scripts.getAttribute('src'));
+});
+
+
 console.log(val);
