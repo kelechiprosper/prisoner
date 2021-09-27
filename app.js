@@ -753,3 +753,7 @@ let val;
 
 // document.getElementById()
 console.log(document.getElementById('task-tittle'));
+
+// Get things from the element
+console.log(document.getElementById('task-tittle').id);
+console.log(document.getElementById('task-tittle').className);
