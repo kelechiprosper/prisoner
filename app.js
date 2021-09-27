@@ -758,8 +758,16 @@ console.log(document.getElementById('task-tittle'));
 console.log(document.getElementById('task-tittle').id);
 console.log(document.getElementById('task-tittle').className);
 
+const taskTittle = document.getElementById('task-tittle');
+
+
 // Change styling
-document.getElementById('task-tittle').style.background = 'black';
-document.getElementById('task-tittle').style.color = 'white';
-document.getElementById('task-tittle').style.padding = '5px';
+taskTittle.style.background = 'black';
+taskTittle.color = 'white';
+taskTittle.style.padding = '5px';
 //document.getElementById('task-tittle').style.display = 'none';
+
+// Change content
+taskTittle.textContent = 'Task List';
+taskTittle.innerText = 'My Tasks';
+taskTittle.innerHTML = '<span style="color:red">Task List</span>';
