@@ -757,3 +757,9 @@ console.log(document.getElementById('task-tittle'));
 // Get things from the element
 console.log(document.getElementById('task-tittle').id);
 console.log(document.getElementById('task-tittle').className);
+
+// Change styling
+document.getElementById('task-tittle').style.background = 'black';
+document.getElementById('task-tittle').style.color = 'white';
+document.getElementById('task-tittle').style.padding = '5px';
+//document.getElementById('task-tittle').style.display = 'none';
