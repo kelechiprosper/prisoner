@@ -723,6 +723,12 @@ val = document.characterSet;
 val = document.contentType;
 
 
+val = document.forms;
+val = document.forms[0];
+val = document.forms[0].id;
+val = document.forms[0].method;
+val = document.forms[0].action;
+
 
 
 console.log(val);
