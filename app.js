@@ -752,22 +752,38 @@ let val;
 // console.log(val);
 
 // document.getElementById()
-console.log(document.getElementById('task-tittle'));
+// console.log(document.getElementById('task-tittle'));
 
-// Get things from the element
-console.log(document.getElementById('task-tittle').id);
-console.log(document.getElementById('task-tittle').className);
+// // Get things from the element
+// console.log(document.getElementById('task-tittle').id);
+// console.log(document.getElementById('task-tittle').className);
 
-const taskTittle = document.getElementById('task-tittle');
+// const taskTittle = document.getElementById('task-tittle');
 
 
-// Change styling
-taskTittle.style.background = 'black';
-taskTittle.color = 'white';
-taskTittle.style.padding = '5px';
-//document.getElementById('task-tittle').style.display = 'none';
+// // Change styling
+// taskTittle.style.background = 'black';
+// taskTittle.color = 'white';
+// taskTittle.style.padding = '5px';
+// //document.getElementById('task-tittle').style.display = 'none';
 
-// Change content
-taskTittle.textContent = 'Task List';
-taskTittle.innerText = 'My Tasks';
-taskTittle.innerHTML = '<span style="color:red">Task List</span>';
+// // Change content
+// taskTittle.textContent = 'Task List';
+// taskTittle.innerText = 'My Tasks';
+// taskTittle.innerHTML = '<span style="color:red">Task List</span>';
+
+// document.querySelector()
+
+
+console.log(document.querySelector('#task-tittle'));
+console.log(document.querySelector('.card-tittle'));
+console.log(document.querySelector('h5'));
+
+document.querySelector('li').style.color = 'crimson';
+document.querySelector('ul li');
+
+document.querySelector('li:last-child').style.color = 'green';
+document.querySelector('li:nth-child(4)').textContent = 'Hello peace';
+document.querySelector('li:nth-child(3)').style.color = 'yellow';
+document.querySelector('li:nth-child(odd)').style.background = 'blue';
+document.querySelector('li:nth-child(even)').style.background = 'green';
