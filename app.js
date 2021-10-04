@@ -775,15 +775,20 @@ let val;
 // document.querySelector()
 
 
-console.log(document.querySelector('#task-tittle'));
-console.log(document.querySelector('.card-tittle'));
-console.log(document.querySelector('h5'));
+// console.log(document.querySelector('#task-tittle'));
+// console.log(document.querySelector('.card-tittle'));
+// console.log(document.querySelector('h5'));
 
-document.querySelector('li').style.color = 'crimson';
-document.querySelector('ul li');
+// document.querySelector('li').style.color = 'crimson';
+// document.querySelector('ul li');
 
-document.querySelector('li:last-child').style.color = 'green';
-document.querySelector('li:nth-child(4)').textContent = 'Hello peace';
-document.querySelector('li:nth-child(3)').style.color = 'yellow';
-document.querySelector('li:nth-child(odd)').style.background = 'blue';
-document.querySelector('li:nth-child(even)').style.background = 'green';
+// document.querySelector('li:last-child').style.color = 'green';
+// document.querySelector('li:nth-child(4)').textContent = 'Hello peace';
+// document.querySelector('li:nth-child(3)').style.color = 'yellow';
+// document.querySelector('li:nth-child(odd)').style.background = 'blue';
+// document.querySelector('li:nth-child(even)').style.background = 'green';
+
+// document.getElementsByClassName
+
+const items = document.getElementsByClassName('collection-item');
+console.log(items);
