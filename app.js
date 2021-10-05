@@ -802,8 +802,20 @@ let val;
 // console.log(listItems);
 
 // document.getElementsByClassName
-const lis = document.getElementsByTagName('li');
+let lis = document.getElementsByTagName('li');
 console.log(lis);
 console.log(lis[0]);
 lis[0].style.color = 'red';
 lis[3].textContent = 'chief';
+
+// conver HTML Collection into array
+lis = Array.from(lis);
+
+lis.reverse();
+
+lis.forEach(function(li,index){
+    console.log(li.className)
+    li.textContent = `${index}: Hello`;
+});
+
+console.log(lis);
