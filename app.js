@@ -869,4 +869,9 @@ val = list.children;
 val = list.children[1];
  list.children[1].textContent = 'Hello';
 
+ // Children of Children
+ list.children[3].children[0]. id = 'test-link';
+ val = list.children[3].children[0];
+
+ 
 console.log(val);
