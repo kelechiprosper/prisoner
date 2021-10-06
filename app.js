@@ -873,5 +873,14 @@ val = list.children[1];
  list.children[3].children[0]. id = 'test-link';
  val = list.children[3].children[0];
 
- 
+ // First child
+ val = list.firstChild;
+ val = list.firstElementChild;
+
+ // Last child
+ val = list.lastChild;
+ val = list.lastElementChild;
+
+ // count child Element
+ val = list.childElementCount;
 console.log(val);
