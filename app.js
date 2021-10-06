@@ -822,22 +822,32 @@ let val;
 
 
 // document.querySelectorAll
-const items = document.querySelectorAll('ul.collection li.collection-items');
+// const items = document.querySelectorAll('ul.collection li.collection-items');
 
- items.forEach(function(item,index){
-       item.textContent = `${index}: Hello`;
-    });
+//  items.forEach(function(item,index){
+//        item.textContent = `${index}: Hello`;
+//     });
 
-    const liOdd = document.querySelectorAll('li:nth-child(odd)');
-    const liEven = document.querySelectorAll('li:nth-child(Even)');
+//     const liOdd = document.querySelectorAll('li:nth-child(odd)');
+//     const liEven = document.querySelectorAll('li:nth-child(Even)');
 
-    liOdd.forEach(function(li,index){
-        li.style.background = 'pink';
-    });
+//     liOdd.forEach(function(li,index){
+//         li.style.background = 'pink';
+//     });
 
-    for(let i = 0; i < liEven.length; i++){
-        liEven[i].style.background = 'red';
-    }
+//     for(let i = 0; i < liEven.length; i++){
+//         liEven[i].style.background = 'red';
+//     }
 
 
-console.log(items);
+//console.log(items);
+
+
+const list = document.querySelector('ul.collection');
+const listItem = document.querySelector('li.collection-item:first-child');
+
+
+val = listItem;
+val = list;
+
+console.log(val);
