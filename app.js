@@ -883,4 +883,13 @@ val = list.children[1];
 
  // count child Element
  val = list.childElementCount;
+
+// Get parent node
+val = listItem.parentNode;
+val = listItem.parentElement;
+val = listItem.parentElement.parentElement;
+
+
+
+
 console.log(val);
