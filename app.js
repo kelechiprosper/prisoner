@@ -866,5 +866,7 @@ val = list.childNodes[3].nodeType;
 
 // Get children element nodes
 val = list.children;
+val = list.children[1];
+ list.children[1].textContent = 'Hello';
 
 console.log(val);
