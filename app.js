@@ -915,6 +915,8 @@ li.setAttribute('tittle', 'New Item');
 // create test node and append
 li.appendChild(document.createTextNode('High Chief'));
 
+// Create new link element
+const link = document.createElement('a');
 
 
 // Append li as child to ul
