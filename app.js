@@ -864,38 +864,46 @@ val = list.childNodes[3].nodeType;
 // 10- Doctype
 
 
-// Get children element nodes
-val = list.children;
-val = list.children[1];
- list.children[1].textContent = 'Hello';
+// // Get children element nodes
+// val = list.children;
+// val = list.children[1];
+//  list.children[1].textContent = 'Hello';
 
- // Children of Children
- list.children[3].children[0]. id = 'test-link';
- val = list.children[3].children[0];
+//  // Children of Children
+//  list.children[3].children[0]. id = 'test-link';
+//  val = list.children[3].children[0];
 
- // First child
- val = list.firstChild;
- val = list.firstElementChild;
+//  // First child
+//  val = list.firstChild;
+//  val = list.firstElementChild;
 
- // Last child
- val = list.lastChild;
- val = list.lastElementChild;
+//  // Last child
+//  val = list.lastChild;
+//  val = list.lastElementChild;
 
- // count child Element
- val = list.childElementCount;
+//  // count child Element
+//  val = list.childElementCount;
 
-// Get parent node
-val = listItem.parentNode;
-val = listItem.parentElement;
-val = listItem.parentElement.parentElement;
+// // Get parent node
+// val = listItem.parentNode;
+// val = listItem.parentElement;
+// val = listItem.parentElement.parentElement;
 
-// Get next sibling
-val = listItem.nextSibling;
-val =
-val = listItem.nextElementSibling.nextElementSibling.previousElementSibling;
+// // Get next sibling
+// val = listItem.nextSibling;
+// val =
+// val = listItem.nextElementSibling.nextElementSibling.previousElementSibling;
 
-// Get prev sibling
+// // Get prev sibling
 // val = listItem.previousSibling;
 // val = listItem.previousElementSibling;
 
-console.log(val);
+// console.log(val);
+
+// Create element
+const li = document.createElement('li');
+
+// Add class
+li.className = 'collection-item';
+
+console.log(li);
