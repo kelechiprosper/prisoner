@@ -909,4 +909,7 @@ li.className = 'collection-item';
 // Add id
 li.id = 'new-item';
 
+// Add attribute
+li.setAttribute('tittle', 'New Item');
+
 console.log(li);
