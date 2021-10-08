@@ -915,4 +915,10 @@ li.setAttribute('tittle', 'New Item');
 // create test node and append
 li.appendChild(document.createTextNode('High Chief'));
 
+
+
+// Append li as child to ul
+document.querySelector('ul.collection').appendChild(li);
+
+
 console.log(li);
