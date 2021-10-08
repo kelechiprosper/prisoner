@@ -912,4 +912,7 @@ li.id = 'new-item';
 // Add attribute
 li.setAttribute('tittle', 'New Item');
 
+// create test node and append
+li.appendChild(document.createTextNode('High Chief'));
+
 console.log(li);
