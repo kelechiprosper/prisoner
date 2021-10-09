@@ -935,5 +935,11 @@ val = list.childNodes[3].nodeType;
 
 // Creat Element
 const newHeading = document.createElement('h2')
+// Add id
+newHeading.id = 'task-title';
+// New text node
+newHeading.appendChild(document.createTextNode('Task List'));
 
-console.log('newHeading');
+
+
+console.log(newHeading);
