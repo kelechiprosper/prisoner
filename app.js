@@ -900,27 +900,40 @@ val = list.childNodes[3].nodeType;
 
 // console.log(val);
 
-// Create element
-const li = document.createElement('li');
+// // Create element
+// const li = document.createElement('li');
 
-// Add class
-li.className = 'collection-item';
+// // Add class
+// li.className = 'collection-item';
 
-// Add id
-li.id = 'new-item';
+// // Add id
+// li.id = 'new-item';
 
-// Add attribute
-li.setAttribute('tittle', 'New Item');
+// // Add attribute
+// li.setAttribute('tittle', 'New Item');
 
-// create test node and append
-li.appendChild(document.createTextNode('High Chief'));
+// // create test node and append
+// li.appendChild(document.createTextNode('High Chief'));
 
-// Create new link element
-const link = document.createElement('a');
+// // Create new link element
+// const link = document.createElement('a');
+// // Add classes
+// link.className = "delete-item secondary-content"
+// // Add icon html
+// link.innerHTML = '<i class="fa fa-times" aria-hidden="true"></i>';
+
+// // Append link into li
+// li.appendChild(link);
+
+// // Append li as child to ul
+// document.querySelector('ul.collection').appendChild(li);
 
 
-// Append li as child to ul
-document.querySelector('ul.collection').appendChild(li);
+// console.log(li);
 
+// REPLACE ELEMENT
 
-console.log(li);
+// Creat Element
+const newHeading = document.createElement('h2')
+
+console.log('newHeading');
