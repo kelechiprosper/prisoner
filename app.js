@@ -940,6 +940,7 @@ newHeading.id = 'task-title';
 // New text node
 newHeading.appendChild(document.createTextNode('Task List'));
 
-
+// Get the Old Heading
+const oldHeading = document.getElementById('task-title');
 
 console.log(newHeading);
