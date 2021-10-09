@@ -950,4 +950,6 @@ cardAction.replaceChild(newHeading,oldHeading);
 
 
 
-console.log(newHeading);
+// Remove Element
+const lis = document.querySelectorAll('li');
+const lis = document.querySelector('ul');
