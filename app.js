@@ -843,18 +843,18 @@ let val;
 //console.log(items);
 
 
-const list = document.querySelector('ul.collection');
-const listItem = document.querySelector('li.collection-item:first-child');
+// const list = document.querySelector('ul.collection');
+// const listItem = document.querySelector('li.collection-item:first-child');
 
 
-val = listItem;
-val = list;
+// val = listItem;
+// val = list;
 
-// Get child nodes
- val = list.childNodes
-val = list.childNodes[0];
-val = list.childNodes[0].nodeName;
-val = list.childNodes[3].nodeType;
+// // Get child nodes
+//  val = list.childNodes
+// val = list.childNodes[0];
+// val = list.childNodes[0].nodeName;
+// val = list.childNodes[3].nodeType;
 
 // 1 - Element
 // 2 - Attribute (deprecated)
@@ -934,7 +934,7 @@ val = list.childNodes[3].nodeType;
 // REPLACE ELEMENT
 
 // Creat Element
-const newHeading = document.createElement('h2')
+const newHeading = document.createElement('h2');
 // Add id
 newHeading.id = 'task-title';
 // New text node
@@ -943,7 +943,11 @@ newHeading.appendChild(document.createTextNode('Task List'));
 // Get the Old Heading
 const oldHeading = document.getElementById('task-title');
 //Parent
-const cardAction = document.querySelector('card-action');
+const cardAction = document.querySelector('.card-action');
+
+// Replace
+cardAction.replaceChild(newHeading,oldHeading);
+
 
 
 console.log(newHeading);
