@@ -948,8 +948,9 @@ const cardAction = document.querySelector('.card-action');
 // Replace
 cardAction.replaceChild(newHeading,oldHeading);
 
-
-
 // Remove Element
 const lis = document.querySelectorAll('li');
-const lis = document.querySelector('ul');
+const list = document.querySelector('ul');
+
+// Remove list item
+lis[0].remove();
