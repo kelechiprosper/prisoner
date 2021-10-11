@@ -957,3 +957,10 @@ lis[0].remove();
 
 // Remove child Element
 list.removeChild(lis[3]);
+
+// CLASSES & attribute
+const firstLi = document.querySelector('li:first-child');
+const link = firstLi.children[0];
+
+
+console.log(firstLi.children[0]);
