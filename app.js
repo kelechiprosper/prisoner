@@ -970,6 +970,13 @@ link.classList.add('test');
 link.classList.remove('test');
 val = link;
 
+// Attributes
+val = link.getAttribute('href');
+val = link.setAttribute('href', 'http://google.com');
+link.setAttribute('title', 'Google');
+val = link.hasAttribute('title');
+val = link;
+link.removeAttribute('title');
 
 console.log(val);
 //console.log(firstLi.children[0]);
