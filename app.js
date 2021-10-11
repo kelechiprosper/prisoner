@@ -102,7 +102,7 @@
 // console.log(today)
 // console.log(typeof today);
 
-// let val;
+//let val;
 
 // // number of string
 // val = String(555);
@@ -962,5 +962,14 @@ list.removeChild(lis[3]);
 const firstLi = document.querySelector('li:first-child');
 const link = firstLi.children[0];
 
+// Classes
+val = link.className;
+val = link.classList;
+val = link.classList[0];
+link.classList.add('test');
+link.classList.remove('test');
+val = link;
 
-console.log(firstLi.children[0]);
+
+console.log(val);
+//console.log(firstLi.children[0]);
