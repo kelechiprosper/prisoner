@@ -1006,6 +1006,11 @@ val = e.target.classList;
 // Event type
 val = e.type;
 
+// Time stamp
+val = e.timeStamp;
+
+
+
 
     console.log(val);
 }
