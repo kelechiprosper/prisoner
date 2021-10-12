@@ -987,7 +987,7 @@ let val;
 //     //e.preventDefault();
 // });
 
-document.querySelector('.clear-tasks').addEventListener('click',
+document.querySelector('.clear-tasks').addEventListener('mouseover',
 onclick);
 
 function onclick(e){
@@ -1001,7 +1001,11 @@ val = e.target.id;
 val = e.target.className;
 val = e.target.classList;
 
-e.target.innerText = 'Hello';
+//e.target.innerText = 'Hello';
+
+// Event type
+val = e.type;
+
 
     console.log(val);
 }
