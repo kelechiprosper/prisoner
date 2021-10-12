@@ -1009,7 +1009,13 @@ val = e.type;
 // Time stamp
 val = e.timeStamp;
 
+// Coords event relatives to the window
+val = e.clientY;
+val = e.clientX;
 
+// Coords event relatives to the element
+val = e.offsetY;
+val = e.offsetX;
 
 
     console.log(val);
