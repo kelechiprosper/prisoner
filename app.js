@@ -987,36 +987,45 @@ let val;
 //     //e.preventDefault();
 // });
 
-document.querySelector('.clear-tasks').addEventListener('mouseover',
-onclick);
+// document.querySelector('.clear-tasks').addEventListener('mouseover',
+// onclick);
 
-function onclick(e){
-    //console.log('clicked');
+// function onclick(e){
+//     //console.log('clicked');
 
-val = e;
+// val = e;
 
-// Event target element
-val = e.target;
-val = e.target.id;
-val = e.target.className;
-val = e.target.classList;
+// // Event target element
+// val = e.target;
+// val = e.target.id;
+// val = e.target.className;
+// val = e.target.classList;
 
-//e.target.innerText = 'Hello';
+// //e.target.innerText = 'Hello';
 
-// Event type
-val = e.type;
+// // Event type
+// val = e.type;
 
-// Time stamp
-val = e.timeStamp;
+// // Time stamp
+// val = e.timeStamp;
 
-// Coords event relatives to the window
-val = e.clientY;
-val = e.clientX;
+// // Coords event relatives to the window
+// val = e.clientY;
+// val = e.clientX;
 
-// Coords event relatives to the element
-val = e.offsetY;
-val = e.offsetX;
+// // Coords event relatives to the element
+// val = e.offsetY;
+// val = e.offsetX;
 
 
-    console.log(val);
+//     console.log(val);
+// }
+
+const clearBtn = document.querySelector('.clear-task');
+const card = document.querySelector('.card');
+const heading = document.querySelector('h5');
+
+// Event handler
+function runEvent(e) {
+    console.log(`EVENT TYPE:${e.type}`);
 }
