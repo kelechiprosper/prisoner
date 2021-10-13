@@ -1030,7 +1030,10 @@ const heading = document.querySelector('h5');
 // Doubleclick
 //clearBtn.addEventListener('dblclick', runEvent);
 //mousedown
-clearBtn.addEventListener('mousedown', runEvent);
+//clearBtn.addEventListener('mousedown', runEvent);
+//mouseup
+clearBtn.addEventListener('mouseup', runEvent);
+
 
 // Event handler
 function runEvent(e) {
