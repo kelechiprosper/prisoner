@@ -1032,7 +1032,18 @@ const heading = document.querySelector('h5');
 //mousedown
 //clearBtn.addEventListener('mousedown', runEvent);
 //mouseup
-clearBtn.addEventListener('mouseup', runEvent);
+//clearBtn.addEventListener('mouseup', runEvent);
+// //mouseenter
+// clearBtn.addEventListener('mouseenter', runEvent);
+// //mouseleave
+// clearBtn.addEventListener('mouseleave', runEvent);
+// //mouseover
+// clearBtn.addEventListener('mouseover', runEvent);
+// //mouseout
+// clearBtn.addEventListener('mouseout', runEvent);
+
+// mousemove
+clearBtn.addEventListener('mousemove', runEvent);
 
 
 // Event handler
