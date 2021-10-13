@@ -1028,7 +1028,9 @@ const heading = document.querySelector('h5');
 //Click
 //clearBtn.addEventListener('click', runEvent);
 // Doubleclick
-clearBtn.addEventListener('dblclick', runEvent);
+//clearBtn.addEventListener('dblclick', runEvent);
+//mousedown
+clearBtn.addEventListener('mousedown', runEvent);
 
 // Event handler
 function runEvent(e) {
