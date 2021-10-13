@@ -1049,4 +1049,9 @@ clearBtn.addEventListener('mousemove', runEvent);
 // Event handler
 function runEvent(e) {
     console.log(`EVENT TYPE: ${e.type}`);
+
+    heading.textContent= `MouseX: ${e.offsetX} MouseY: ${e.offsetY}`;
+
+    document.body.style.backgroundcolor = `rgb(${e.offsetX},
+        ${e.offsetY}, 40)`;
 }
