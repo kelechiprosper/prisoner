@@ -1067,13 +1067,16 @@ taskInput.value = '';
 //Keydown
 //taskInput.addEventListener('keydown', runEvent);
 //Keyup
-taskInput.addEventListener('keyup', runEvent);
+//taskInput.addEventListener('keyup', runEvent);
+// key press
+taskInput.addEventListener('keypress', runEvent);
+
 
 
 function runEvent(e){
     console.log(`EVENT TYPE ${e.type}`);
 
-    console.log(e.target.value);
+    //console.log(e.target.value);
 
     //heading.innerText = e.target.value;
 
