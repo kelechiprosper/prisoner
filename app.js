@@ -1073,7 +1073,10 @@ taskInput.value = '';
 //Focus
 //taskInput.addEventListener('focus', runEvent);
 //Blur
-taskInput.addEventListener('blur', runEvent);
+//taskInput.addEventListener('blur', runEvent);
+//Cut
+taskInput.addEventListener('cut', runEvent);
+
 
 
 
