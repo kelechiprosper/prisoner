@@ -1071,7 +1071,10 @@ taskInput.value = '';
 // key press
 //taskInput.addEventListener('keypress', runEvent);
 //Focus
-taskInput.addEventListener('focus', runEvent);
+//taskInput.addEventListener('focus', runEvent);
+//Blur
+taskInput.addEventListener('blur', runEvent);
+
 
 
 
