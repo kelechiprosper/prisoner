@@ -1104,22 +1104,35 @@ let val;
 
  // EVENT BUBBLING
 
- document.querySelector('.card-tittle').addEventListener('click',
- function(){
-     console.log('card tittle');
- })
+//  document.querySelector('.card-tittle').addEventListener('click',
+//  function(){
+//      console.log('card tittle');
+//  })
 
- document.querySelector('.card-content').addEventListener('click',
- function(){
-     console.log('card content');
- })
+//  document.querySelector('.card-content').addEventListener('click',
+//  function(){
+//      console.log('card content');
+//  })
 
- document.querySelector('.card').addEventListener('click',
- function(){
-     console.log('card');
- })
+//  document.querySelector('.card').addEventListener('click',
+//  function(){
+//      console.log('card');
+//  })
 
- document.querySelector('.col').addEventListener('click',
- function(){
-     console.log('col');
- })
+//  document.querySelector('.col').addEventListener('click',
+//  function(){
+//      console.log('col');
+//  })
+
+//EVENT DELGATION
+
+// const delItem = document.querySelector('.delete-item');
+// delItem.addEventListener('click',deleteItem);
+
+document.body.addEventListener('click', deleteItem);
+
+function deleteItem(e){
+    if(e.target.className === 'fa fa-times')
+    console.log('delete item');
+    
+}
