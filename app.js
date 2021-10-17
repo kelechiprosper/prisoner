@@ -1146,4 +1146,7 @@ let val;
 // localStorage.setItem('name', 'John');
 
  // Set session storage item
-sessionStorage.setItem('name', 'luke');
+//sessionStorage.setItem('name', 'luke');
+
+// remove from storage
+localStorage.removeItem('name');
