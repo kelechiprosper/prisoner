@@ -1143,8 +1143,8 @@ let val;
 // }
 
 // // Set local storage item
- localStorage.setItem('name', 'John');
- localStorage.setItem('age', '25');
+//  localStorage.setItem('name', 'John');
+//  localStorage.setItem('age', '25');
 
  // Set session storage item
 //sessionStorage.setItem('name', 'luke');
@@ -1155,4 +1155,8 @@ let val;
 // get from storage
 const name = localStorage.getItem('name');
 const age = localStorage.getItem('age');
+
+// clear local storage
+localStorage.clear();
+
 console.log(name, age);
