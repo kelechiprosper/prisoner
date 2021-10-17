@@ -1142,5 +1142,8 @@ let val;
     
 // }
 
-// Set local storage item
-localStorage.setItem('name', 'John');
+// // Set local storage item
+// localStorage.setItem('name', 'John');
+
+ // Set session storage item
+sessionStorage.setItem('name', 'luke');
